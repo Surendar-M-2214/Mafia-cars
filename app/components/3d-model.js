@@ -1,8 +1,8 @@
-"use client"
+'use client'
 import Spline from '@splinetool/react-spline';
 
-export default function Model() {
+export default function App() {
   return (
-    <Spline scene="https://prod.spline.design/pSEJekVaeUWOHtJA/scene.splinecode"  />
+    <Spline scene="https://prod.spline.design/pSEJekVaeUWOHtJA/scene.splinecode" />
   );
 }

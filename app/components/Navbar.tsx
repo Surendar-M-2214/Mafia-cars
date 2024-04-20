@@ -5,12 +5,13 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ShoppingBag } from "lucide-react";
 import { useShoppingCart } from "use-shopping-cart";
-
+import Vr from "./vrmode";
 const links = [
   { name: "Home", href: "/" },
   { name: "Exterior", href: "/Exterior" },
   { name: "Interior", href: "/Interior" },
   { name: "Extras", href: "/Extras" },
+  { name: "Vr modes", href: "/components/vrmode" },
 ];
 
 export default function Navbar() {
@@ -45,8 +46,15 @@ export default function Navbar() {
               )}
             </div>
           ))}
+     
+ 
         </nav>
-
+        <Link
+                  href="/components/Hero"
+                  className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-primary"
+                >
+              vr
+                </Link>
         <div className="flex divide-x border-r sm:border-l">
           <Button
             variant={"outline"}
