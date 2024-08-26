@@ -21,8 +21,7 @@ export default async function Hero() {
            Top CAR Accessories In Affordable Price!!
           </h1>
           <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
-            We sell only the most exclusive and high quality products for you.
-            We are the best so come and shop with us.
+           Presented By JEEVAN KUMAR...
           </p>
         </div>
 

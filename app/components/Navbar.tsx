@@ -11,7 +11,7 @@ const links = [
   { name: "Exterior", href: "/Exterior" },
   { name: "Interior", href: "/Interior" },
   { name: "Extras", href: "/Extras" },
-  { name: "Vr modes", href: "/components/vrmode" },
+
 ];
 
 export default function Navbar() {
@@ -49,12 +49,7 @@ export default function Navbar() {
      
  
         </nav>
-        <Link
-                  href="/components/Hero"
-                  className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-primary"
-                >
-              vr
-                </Link>
+      
         <div className="flex divide-x border-r sm:border-l">
           <Button
             variant={"outline"}
