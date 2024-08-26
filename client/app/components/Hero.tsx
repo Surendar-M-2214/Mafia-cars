@@ -20,9 +20,7 @@ export default async function Hero() {
           <h1 className="mb-4 text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl">
            Top CAR Accessories In Affordable Price!!
           </h1>
-          <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
-           Presented By JEEVAN KUMAR...
-          </p>
+         
         </div>
 
         <div className="mb-12 flex w-full md:mb-16 lg:w-2/3">
