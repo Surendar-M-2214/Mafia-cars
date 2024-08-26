@@ -1,8 +1,11 @@
 {
+  "homepage": "https://Surendar-M-2214/github.io/gitMafia-cars",
   "name": "mafia-cars",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+  "predeploy":"npm run build",
+  "deploy":"gh-pages -d dist",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
