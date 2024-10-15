@@ -3,7 +3,7 @@ import { simplifiedProduct } from "../interface";
 import { client } from "../lib/sanity";
 import Image from "next/image";
 
-async function getData(cateogry: string) {
+async function getServerSideProps(cateogry: string) {
   const query = `*[_type == "product" && category->name == "${cateogry}"] {
         _id,
           "imageUrl": images[0].asset->url,
@@ -25,7 +25,7 @@ export default async function CategoryPage({
 }: {
   params: { category: string };
 }) {
-  const data: simplifiedProduct[] = await getData(params.category);
+  const data: simplifiedProduct[] = await getServerSideProps(params.category);
 
   return (
     <div className="bg-white">
